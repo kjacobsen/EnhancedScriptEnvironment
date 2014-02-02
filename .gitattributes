@@ -23,6 +23,9 @@
 *.PDF	 diff=astextplain
 *.rtf	 diff=astextplain
 *.RTF	 diff=astextplain
-*.ps1	 diff=astextplain
-*.ini	 diff=astextplain
-*.psm1	 diff=astextplain
+
+
+
+*.ps1	 text eol=crlf
+*.ini	 text eol=crlf
+*.psm1	 text eol=crlf
